@@ -4,25 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>❤爱宝宝❤</title>
+    <title>❤i宝宝❤</title>
     <style>
-      html,
-      body {
-        height: 100%;
+      .imgs {
+        display: flex;
+        justify-content: center;
       }
-      body {
-        background-image: url(./love1.gif);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
+      .img {
+        max-width: 300px;
       }
-      h1 {
-        text-align: center;
-        margin-top: 50px;
-        color: pink;
+      #btn {
+        width: 30px;
+        background-color: green;
       }
     </style>
   </head>
   <body>
-    <h1>❤爱宝宝❤</h1>
+    <script>
+      var num;
+      function add() {
+        let clh = window.document.getElementById("clh");
+        let add = parseInt(clh.innerText) + 1;
+        clh.innerText = add;
+      }
+    </script>
+    <div class="imgs">
+      <div>
+        <img
+          src="https://img1.baidu.com/it/u=3178057158,4110048229&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=538"
+          alt="logo"
+          class="img"
+        />
+        <p style="text-align: center">点击想我加1</p>
+        <div style="text-align: center">
+          <button id="btn" onclick="add()">+1</button>
+          <p>想我+<span id="clh">1</span></p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
