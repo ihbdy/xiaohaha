@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunki_baby"]=self["webpackChunki_baby"]||[]).push([[983],{1983:function(n,e,u){u.r(e),u.d(e,{default:function(){return c}});var l=function(){var n=this,e=n._self._c;return e("div",[n._v("home")])},t=[],r={name:"home"},a=r,i=u(1001),s=(0,i.Z)(a,l,t,!1,null,null,null),c=s.exports}}]);
-//# sourceMappingURL=983.d0eca48a.js.map
